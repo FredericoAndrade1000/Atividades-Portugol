@@ -14,7 +14,7 @@ programa
 		escreva ("Y2: ")
 		leia (y2)
 	
-		radicando = math.potencia(x2 - x1) + math.potencia(y2 - y1)
+		radicando = math.potencia((x2 - x1), 2.0) + math.potencia((y2 - y1), 2.0)
 
 		distancia = math.raiz(radicando, 2.0)
 		
